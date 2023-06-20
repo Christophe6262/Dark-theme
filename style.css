@@ -1,0 +1,52 @@
+:root {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+  --clr-grey: #64748b;
+}
+
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+  --clr-grey: #cbd5e1;
+}
+
+body {
+  color: var(--clr-font);
+  background: var(--clr-bcg);
+  transition: all 0.3s linear;
+}
+.nav-bar {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar p {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.button {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background: var(--clr-primary);
+  color: white;
+}
+
+h4 {
+  color: #d23669;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+header p {
+  color: var(--clr-grey);
+  font-size: 1.2rem;
+}
+.articles {
+  max-width: 600px;
+  margin: 0 auto;
+}
